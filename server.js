@@ -22,3 +22,8 @@ db.on('error', function (error) {
 app.get('/', function (req, res) {
   res.send('Hello world')
 })
+
+// Listen on port 3000
+app.listen(3030, function () {
+    console.log('App running on port 3000!')
+  })
